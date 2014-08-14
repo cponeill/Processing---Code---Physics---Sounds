@@ -12,6 +12,12 @@ void setup() {
 void draw() {
   background(255);
   
+  PVector mouse = new PVector(mouseX, mouseY);
+  PVector center = new PVector(width/2, height/2);
+  
+  mouse.sub(center);
+  translate(width/2,height/2);
+  
   location.add(velocity);
   
   if ((location.x > width) || (location.x < 0)) {
