@@ -9,6 +9,11 @@ void setup() {
   veloctiy = new PVector(2.5, 5);
 }
 
+void sub(PVector, v) {
+  x -= v.x
+  y -= y.x;
+}
+
 void draw() {
   background(255);
   
