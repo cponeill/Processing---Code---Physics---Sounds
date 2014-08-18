@@ -21,6 +21,12 @@ void draw() {
   PVector center = new PVector(width/2, height/2);
   
   mouse.sub(center);
+  
+  float m = mouse.mag();
+  fill(0);
+  rect(0,0,m,10);
+  
+  
   translate(width/2,height/2);
   
   location.add(velocity);
