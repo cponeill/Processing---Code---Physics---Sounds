@@ -14,6 +14,14 @@ void sub(PVector, v) {
   y -= y.x;
 }
 
+void div(float n) {
+  x /= n;
+  y /= n;
+}
+
+PVector u = new PVector(8, -4);
+u.div(2);
+
 void draw() {
   background(255);
   
