@@ -1,7 +1,15 @@
 /* I still have a lot to add to this code. */
 
-PVector location;
-PVector velocity;
+class Mover {
+
+  PVector location;
+  PVector velocity;
+  
+  void update() {
+    location.dadd(velocity);
+  }
+
+void update() {
 
 void setup() {
   size(640, 360);
