@@ -27,6 +27,11 @@ void div(float n) {
   x /= n;
   y /= n;
 }
+
+void fortyTwo() {
+  x = 4;
+  y = 2;
+  fourtyTwo  = x + y;
 */
 
 PVector u = new PVector(8, -4);
